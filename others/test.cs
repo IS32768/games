@@ -16,7 +16,7 @@ namespace Sample204
             b = 1.23;
             c = 10;          //  キャストなしで代入
             d = (double)c;   //  キャストありで代入
-            Console.WriteLine("a={0} b={1} c={2} d={3}", a, b, c, d);
+            Console.WriteLine("a={0} b={1} c={2} d={3}}", a, b, c, d);
         }
     }
-}a
+}
