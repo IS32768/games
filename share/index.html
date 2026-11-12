@@ -40,9 +40,10 @@
 <body>
 
 	<div id="login">
-		<h1>パスワード入力</h1>
+		<h1>ファイル保存</h1>
+		<p>このファイルを閲覧するにはパスワードが必要です。</p>
 		<input type="password" id="password" placeholder="パスワード">
-		<button onclick="login()">ログイン</button>
+		<button onclick="login()">開く</button>
 		<p id="error"></p>
 	</div>
 
@@ -56,7 +57,7 @@
 
 		const owner = "is32768";
 		const repo = "games";
-		const folder = "share";
+		const folder = "share/files";
 
 		function login() {
 			const input = document.getElementById("password").value;
